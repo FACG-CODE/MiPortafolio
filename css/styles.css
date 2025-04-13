@@ -1,0 +1,181 @@
+/*Realice algunas configuraciones iniciales como agregar*/
+#contenedor-body {
+    background-image: url('https://i.pinimg.com/originals/4d/74/08/4d740888825ff6e44028919c3f2ebfc0.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: antiquewhite;
+    font-family:'Poppins', Cambria;
+    text-align: center;
+}
+
+#contenedor-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 1%;
+}
+
+#contenedor-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    margin-bottom: 10%;
+    overflow: auto;
+}
+#contenedor-nav a {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#contenedor-nav a:active {
+    color: antiquewhite;
+    text-decoration: none;
+}
+#contenedor-nav a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
+#contenedor-nav a:link {
+    color: antiquewhite;
+    text-decoration: none;
+}
+#contenedor-nav a:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.contenedor-sobre-mi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 55vw;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30%;
+    margin-top: 15%;
+}
+
+.contenedor-sobre-mi p {
+    text-align: justify;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.tarjeta-proyecto1 {
+    margin-right: 0.5%;
+    background-color:darkslategray;
+    border-radius: 2%;
+}
+
+.tarjeta-proyecto1 p {
+    margin-left: 0.5%;
+    text-align: justify;
+}
+
+.tarjeta-proyecto1 img {
+    width: 75%;
+    height: 25%;
+    max-width: 75%;
+}
+
+.tarjeta-proyecto2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color:darkslategray;
+    border-radius: 2%;
+}
+
+.tarjeta-proyecto2 p {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.tarjeta-proyecto2 img {
+    width: 39.5%;
+    height: 10%;
+    max-width: 39.5%;
+}
+
+.contenedor-habilidades {
+    display: grid;
+    height: 55vh;
+    width: 75vw;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+}
+
+.contenedor-habilidades img {
+    height: 18vh;
+    width: 11vw;
+    background-color: whitesmoke;
+    border-radius: 20%;
+}
+
+.contenedor-contacto {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    padding-left: 43vw;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+.contenedor-peliculas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.contenedor-peliculas img {
+    width: 300px;
+    height: 400px;
+}
+
+.contenedor-peliculas p {
+    text-align: justify;
+    margin: 5%;
+}
+
+.contenedor-redes-sociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-social-1 img {
+    width: 75%;
+    height: 40%;
+    margin-left: 0%;
+}
+.red-social-2 img {
+    width: 50%;
+    height: 75%;
+    margin-left: 10%;
+}
+ /*Transicion que afecta al desplazamiento de forma mas lenta al utilizar los vinculos del NAV*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+ 
